@@ -1,0 +1,206 @@
+
+
+body {
+   background-color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto;
+    height: 2000px;
+    color: white;
+   text-align: center;
+   margin: 0;
+   height: 10000px;
+   padding-top: 60px;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+h1 {
+    margin-bottom: 0;
+    font-size: 50px;
+}
+.tool {
+    position: relative;
+    width: 250px;
+}
+.logos {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 6px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1);
+    z-index: 4;
+}
+.content {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    top: 0;
+    left: 0;
+    bottom: 3px;
+    right: 0;
+    align-content: center;
+    opacity: 0;
+    border-radius: 6px;
+    color: white;
+}
+.content:hover {
+    opacity: 1;
+    transition: opacity 0.2s;
+}
+.content:hover + .logos {
+    box-shadow: none;
+}
+.h1 {
+    font-weight: bold;
+    font-size: 22px;
+}
+.h2 {
+    font-size: 14px;
+}
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin: 50px 10px 400px 10px;
+    border-style: solid;
+    border-width: 1px;
+    padding: 15px;
+    border-color: gray;
+
+}
+.nav {
+    position: fixed;
+    background-color: black;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 55px;
+}
+h1 {
+    margin: 0;
+}
+.nav-logo {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.nav-left {
+    display: flex;
+   margin-left: 50px;
+   font-weight: 500;
+}
+.nav-middle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    font-weight: 500;
+}
+.nav-right {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 160px;
+    margin-right:50px;
+}
+.nav-content {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: #4E9F3D;
+}
+.Tweb {
+    color: #16FF00;
+}
+
+.landing-content {
+    position: absolute;
+    top: 250px;
+    left: 0;
+    font-size: 20px;
+    margin-left: 30px;
+    text-align: left;
+}
+
+.landing-bg {
+   height: 800px;
+   width: 100%;
+   object-fit: cover;
+}
+.landing-page {
+    height: 810px;
+    position: relative;
+}
+.hello {
+    color: #16FF00;
+    font-size: 34px;
+    margin-bottom: 10px;
+}
+.header {
+    font-weight: bold;
+    font-size: 54px;
+    margin-bottom: 10px;
+}
+.ltweb {
+    color: #16FF00;   
+}
+.subhead {
+    font-size: 24px;
+    width: 700px;
+}
+.tox {
+    font-size: 15px;
+    margin-top: 10px;
+    color: #4E9F3D;
+}
+.socials-logo {
+    width: 22px;
+    height: 22px;
+    object-fit: cover;
+}
+.github {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.vieo-container {
+    max-width: 500px;
+    margin: 0;
+}
+video {
+    height: 400px;
+}
+.film-pic {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+.film {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 0 15px rgba(22, 255, 0, 1);
+    border-radius: 10px;
+    padding: 20px;
+    flex-wrap: wrap;
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-top: 50px;
+}
+.htool {
+    margin-top: 300px;
+}
